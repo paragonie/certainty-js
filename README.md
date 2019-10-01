@@ -19,7 +19,7 @@ Certainty is intended to be used with `request-promise-native`.
 ### Easy Mode
 
 Simply call `Certainty.getLatestCABundle()` and pass the `Buffer`
-it return to the `ca` key of your request options object:
+it returns to the `ca` key of your request options object:
 
 ```javascript
 const {Certainty} = require('certainty-js');
