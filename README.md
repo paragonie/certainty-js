@@ -33,7 +33,7 @@ const {Certainty} = require('certainty-js');
         'uri': 'https://php-chronicle.pie-hosted.com/chronicle/lasthash',
         'minVersion': 'TLSv1.2',
         'strictSSL': true,
-        'timeout': timeout * 1000
+        'timeout': 30000
     };
 
     // Send request...
