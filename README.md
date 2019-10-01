@@ -78,9 +78,9 @@ Enterprises), and verify they are committed to a Chronicle instance.
 [everyone sees the same thing](https://defuse.ca/triangle-of-secure-code-delivery.htm).) 
 
 ```javascript
-const {Fetch} = require('certainty-js');
+const {RemoteFetch} = require('certainty-js');
 (async function () {
-    let fetcher = new Fetch('/path/to/directory');
+    let fetcher = new RemoteFetch('/path/to/directory');
     let bundle = fetcher.getLatestBundle();
     console.log(bundle.getFilePath());
 })();
