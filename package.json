@@ -1,6 +1,6 @@
 {
   "name": "certainty-js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Automate your PHP projects' cacert.pem management.",
   "repository": "https://github.com/paragonie/certainty-js",
   "main": "index.js",
@@ -13,14 +13,11 @@
     "mocha": "^6.2.1"
   },
   "keywords": [
-    "encrypt",
-    "encryption",
-    "searchable encryption",
-    "ciphersweet",
-    "paragonie",
-    "sodium",
-    "libsodium",
-    "openssl"
+    "cacert",
+    "certificates",
+    "security",
+    "tls",
+    "paragonie"
   ],
   "author": "Paragon Initiative Enterprises, LLC",
   "license": "ISC",
