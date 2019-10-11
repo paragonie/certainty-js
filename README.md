@@ -9,7 +9,7 @@ designed to keep your CACert bundles up-to-date.
 ## Installation
 
 ```terminal
-npm install --save certainty
+npm install --save certainty-js
 ```
 
 ## Usage
