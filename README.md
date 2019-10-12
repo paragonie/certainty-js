@@ -12,6 +12,19 @@ designed to keep your CACert bundles up-to-date.
 npm install --save certainty-js
 ```
 
+**Optional:**
+
+Certainty uses [Sodium-Plus](https://github.com/paragonie/sodium-plus) internally.
+The default Sodium-Plus backend is cross-platform, but you can obtain greater
+performance by installing `sodium-native` too.
+
+```terminal
+npm install --save sodium-native
+```
+
+This isn't strictly necessary, and sodium-native doesn't work in browsers, but
+if you're not targeting browsers, you can get a significant performance boost.
+
 ## Usage
 
 Certainty is intended to be used with `request-promise-native`.
