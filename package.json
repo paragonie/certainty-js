@@ -1,6 +1,6 @@
 {
   "name": "certainty-js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Automate your PHP projects' cacert.pem management.",
   "repository": "https://github.com/paragonie/certainty-js",
   "main": "index.js",
@@ -30,8 +30,8 @@
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "rfc4648": "^1.2.0",
-    "sapient": "^0.4.0",
-    "sodium-plus": "^0.2.0",
+    "sapient": "^0.4.1",
+    "sodium-plus": "^0.3.0",
     "typedarray-to-buffer": "^3.1.5"
   }
 }
